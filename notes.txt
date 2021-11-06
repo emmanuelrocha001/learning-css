@@ -1,0 +1,21 @@
+# inline vs block
+- block elements take entire width, inline take just the space needed
+- inline-block behaves like inline in terms of positioning, but can be styled like a block element
+
+# psudo classes vs psudo elements
+- psudo class defines the style of a special state of an element
+: class name
+- psudo element defines the style of a specific part of an element
+: : element name
+
+# box model
+-measurements only account for content box && padding
+content -> padding -> border -> margin
+
+# can chain selectors
+a.active
+# combinators
+h1 + a // direct sibling
+h1 ~ a // general sibling
+h1 > a // direct child
+h1 a // ancestor  

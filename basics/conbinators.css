@@ -1,0 +1,20 @@
+/* adhacent sibling */
+/* applies to any p tag elements that come directly after a h2 tag */
+/*elemens share the same parent, second element comes immediately after first*/
+h2 + p {
+}
+
+/* general sibling */
+/*elemens share the same parent, second element comes after first*/
+div ~ p {
+}
+
+/* child */
+/*Second element is a direct child */
+div > p {
+}
+
+/* descendent*/
+/*second element is a descendant of the first element*/
+div p {
+}

@@ -1,0 +1,44 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#product-overview {
+  background: red;
+}
+
+.section-title {
+  color: rgb(30, 181, 48);
+  /* font-family: inherit; */
+}
+
+/*combinators(dont have to be direct children)*/
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+#plans {
+}
+
+/* universal selector */
+* {
+}
+
+/* class selector */
+.by-class {
+}
+
+/* select by id */
+#by-id {
+}
+/* select by attributes */
+[disabled] {
+}
+/*selectors have priorities*/
+/* order matters if you use same selector */
+
+/* cascading: multiple rules can apply to the same element; */
+/* Specifiy: Resolves conflicts arising from multiple rules */
+
+/* low to high specificity */
+/* <tag>, .class, :psudo-class & attribte, #ID selectors, inline */
+
+/*rule with more info takes more specificity*/

@@ -1,0 +1,48 @@
+div {
+  color: white;
+  background-color: blueviolet;
+  width: 150px;
+  height: 150px;
+  /* padding: 10px 5px 10px 5px; */
+  margin: 20px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  /* font-weight: bold; */
+  font-size: 22px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+}
+
+html {
+  height: 100%;
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+body {
+  height: inherit;
+}
+.box {
+  display: inline-block;
+  vertical-align: middle;
+}
+.first-box {
+  height: 300px;
+  width: 50%;
+}
+
+.box:last-child:hover {
+  color: blueviolet;
+  background-color: white;
+  border-radius: 32px;
+}
+
+.box:last-child:hover p {
+  font-weight: bold;
+  font-size: 32px;
+}
