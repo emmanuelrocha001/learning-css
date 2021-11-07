@@ -1,0 +1,54 @@
+#packages-main {
+  padding-top: 32px;
+}
+.detailed-plan {
+  background-color: #d5ffdc;
+  border: 6px solid #066520;
+  margin: 32px;
+  padding: 16px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.detailed-plan a {
+  display: block;
+}
+.detailed-plan:hover {
+  border-color: red;
+}
+
+.detailed-plan > a {
+  text-decoration: none;
+}
+#free {
+  float: right;
+  text-align: right;
+}
+
+.clearfix {
+  clear: both;
+}
+.detailed-plan__title {
+  color: black;
+}
+
+.detailed-plan__choice-description {
+  color: #858585;
+}
+
+.detailed-plan__benefit-description {
+  background: white;
+  color: #066520;
+  border: 2px solid #066520;
+  padding: 8px;
+}
+
+.last-detailed-plan {
+  background-color: #066520;
+}
+.last-detailed-plan .detailed-plan__title {
+  color: white;
+}
+.last-detailed-plan > .detailed-plan__choice-description {
+  background-color: white;
+}

@@ -31,3 +31,10 @@ a:not(.active) {
 .highlighted {
   border: 2px solid #fa923f;
 }
+
+.plan-list {
+  background: chocolate;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
